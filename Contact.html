@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="SJAY">
+    <meta name="description" content="Contact me here">
+    <title>SJAY's Fashion Refresh</title>
+    <link rel="icon" href="img/IMG_0297.JPG">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="header__h1">SJAY Fashioned Refreshed</h1>
+    <nav class="header__nav">
+        <ul class="header__ul">
+            <li>
+                <a href="/">Home</a></li>
+            <li>
+                <a href="#Location">Locate Us</a>
+            </li>
+        </ul>
+    </nav>
+    </header>     
+  <!-- <hr> -->
+  <main class="main">
+  <article class="main__article contact" >
+    <h2 class="contact__h2">Contact Form</h2>
+
+     <form action="https://httpbin.org/get" method="get" class="contact__form">
+        <fieldset class="contact__fieldset">
+            <legend class="offscreen">Send us a Message</legend>
+                <p class="contact__p">
+                     <label class="contact__label" for="Name">Name</label>
+                     <input class="contact__input" type="text" name="Fullname" id="Fullname" placeholder="Fullname"
+                      autocomplete="on" required>
+                </p>
+                <p class="contact__p">
+                    <label class="contact__label" for="Phone">Phone</label>
+                    <input class="contact__input" type="tel" name="phone" id="Phone" 
+                    autocomplete="on" placeholder="000-000-0000"
+                    required>
+                </p>
+                <p class="contact__p">
+                    <label class="contact__label" for="Email">Email</label>
+                    <input class="contact__input" type="email" name="Email"
+                     id="Email" placeholder="Email" autocomplete="on" required>
+                </p>
+                <p class="contact__p">
+                    <label class="contact__label" for="Message">Message</label>
+                    <textarea class="contact__textarea" name="Message" id="Message" 
+                    cols="30" rows="5" required placeholder="Leave us a message"
+                    autofocus></textarea>
+                </p>
+                </fieldset>
+    <br>
+        <button class="contact__button" type="Submit">Send</button>
+        <button class="contact__button" type="Reset">Reset</button>
+    </form>
+</article>
+    <br>
+<hr>
+    <article id="Location" class="main__article">
+        <h2 class="location__h2">Our Location</h2>
+        <figure>
+            <img src="img/Location.pic.jpg" alt="my Logo" width="1000"
+            height="204">
+            <a href="img/IMG_0297.JPG" download="SJAY"></a>
+            <figcaption class="offscreen">
+            <p>SJAY Executive Laundry service</p>
+            </figcaption>
+        </figure>
+            <address>
+                Nova road 4 Junction <br> Ado-Ekiti, Ekiti-State. <br>
+                <a href="mailto:email">jacob.sobs@gmail.com </a>
+                <br>
+                <a href="tel:+2348162160444">08162160444, 08068563231.</a><br>
+            </address>
+    </article>
+</main>
+<hr>
+    <a href="#">Back to Top</a>
+    <footer class="footer">
+        <p>
+            <span class="nowrap">Copyright &copy;</span>
+            <span class="nowrap">SJAY</span>
+        </p>
+    </footer>
+ </body>
+</html>
